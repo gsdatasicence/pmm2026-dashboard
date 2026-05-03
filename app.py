@@ -27,7 +27,7 @@ DATA_PATH = os.path.join(BASE_DIR, "data", "pmm2026_agenda_norm.xlsx")
 LOGO_COMPLETO = os.path.join(BASE_DIR, "images", "logo_completo_2.png")
 
 # URL do dashboard (será atualizada após o deploy)
-DASHBOARD_URL = "https://seusite.com/dashboard"
+DASHBOARD_URL = "https://pmm2026-dashboard.streamlit.app/"
 
 # =========================
 # LOAD DATA
