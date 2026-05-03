@@ -133,7 +133,7 @@ except Exception as e:
 st.markdown(f"""
 <div class="share-links-container">
     <span class="share-text">📤 Compartilhe:</span>
-    <a href="https://wa.me/?text=Confira%20o%20dashboard%20Prêmio%20Municípios%20Mineradores:%20{DASHBOARD_URL}" target="_blank" class="share-link">WhatsApp</a>
+    <a href="https://wa.me/?text=Confira%20o%20dashboard%20Prêmio%20Municípios%20Mineradores%202026:%20{DASHBOARD_URL}" target="_blank" class="share-link">WhatsApp</a>
     <span class="share-divider">|</span>
     <a href="https://www.linkedin.com/sharing/share-offsite/?url={DASHBOARD_URL}" target="_blank" class="share-link">LinkedIn</a>
 </div>
