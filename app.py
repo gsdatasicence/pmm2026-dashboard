@@ -416,9 +416,9 @@ div[data-baseweb="select"] > div {
 """, unsafe_allow_html=True)
 
 st.markdown('<div style="background-color: transparent; padding: 15px 0;">', unsafe_allow_html=True)
-
+# Cor laranja #F2994A
 st.markdown(
-    '<p style="font-family: Arial, sans-serif; font-size: 16px; font-weight: 600; color: #F2994A; margin-bottom: 8px;">'
+    '<p style="font-family: Arial, sans-serif; font-size: 16px; font-weight: 600; color: #FFFFFF; margin-bottom: 8px;">'
     '📍 Selecione o município:</p>',
     unsafe_allow_html=True,
 )

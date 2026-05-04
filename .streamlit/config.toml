@@ -1,0 +1,29 @@
+[theme]
+# Tema base: "light" ou "dark"
+base = "dark"
+
+# Cor primária (usada em botões, links, etc.)
+primaryColor = "#F2994A"
+
+# Cor de fundo principal
+backgroundColor = "#000000"
+
+# Cor de fundo secundária (cards, sidebar, etc.)
+secondaryBackgroundColor = "#FFFFFF"
+
+# Cor do texto principal
+textColor = "#FFFFFF"
+
+# Fonte (sans serif, serif, monospace)
+font = "sans serif"
+
+[server]
+# Tamanho máximo de upload (MB)
+maxUploadSize = 50
+
+# Proteção contra ataques (recomendado manter true)
+enableXsrfProtection = true
+
+[browser]
+# Não enviar estatísticas de uso para o Streamlit
+gatherUsageStats = false
