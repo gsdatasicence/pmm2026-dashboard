@@ -6,7 +6,7 @@ base = "dark"
 primaryColor = "#F2994A"
 
 # Cor de fundo principal
-backgroundColor = "#000000"
+backgroundColor = "#6D812B"
 
 # Cor de fundo secundária (cards, sidebar, etc.)
 secondaryBackgroundColor = "#FFFFFF"

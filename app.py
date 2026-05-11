@@ -21,7 +21,7 @@ st.set_page_config(
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Caminho do arquivo de dados
-DATA_PATH = os.path.join(BASE_DIR, "data", "pmm2026_agenda_norm.xlsx")
+DATA_PATH = os.path.join(BASE_DIR, "data", "pmm2026_agenda_norm_V2.xlsx")
 
 # Caminho da imagem do cabeçalho
 LOGO_COMPLETO = os.path.join(BASE_DIR, "images", "logo_completo_2.png")
@@ -56,7 +56,7 @@ st.markdown("""
 <style>
 /* Container do topo com imagem */
 .header-image-container {
-    background-color: #ffecb3;
+    background-color: #FFFFFF;
     text-align: center;
 }
 
@@ -82,24 +82,24 @@ st.markdown("""
 /* Links de compartilhamento */
 .share-link {
     font-size: 12px;
-    color: #5B6C24 !important;
+    color: #FFFFFF !important;
     text-decoration: none;
     padding: 3px 6px;
     border-radius: 4px;
     font-weight: 600;
     transition: all 0.2s ease;
-    border: 1px solid #5B6C24;
+    border: 1px solid #FFFFFF;
 }
 
 .share-link:hover {
-    color: #F2994A !important;
+    color: #FFFFFF !important;
     background-color: rgba(91, 108, 36, 0.1);
-    border-color: #F2994A;
+    border-color: #FFFFFF;
 }
 
 /* Separador entre links */
 .share-divider {
-    color: #5B6C24;
+    color: #FFFFFF;
     font-size: 12px;
     font-weight: bold;
 }
@@ -108,7 +108,7 @@ st.markdown("""
 .header-separator {
     border: none;
     height: 1px;
-    background-color: #5B6C24;
+    background-color: #FFFFFF;
     margin: 0;
 }
 
@@ -255,7 +255,7 @@ def format_value(value, fmt):
 # =========================
 # FUNÇÃO DE CARDS
 # =========================
-def render_section(title, indice_col, ranking_col, cols, line_color="#B36C32"):
+def render_section(title, indice_col, ranking_col, cols, line_color="#FF8C00"):
     st.markdown(f'<h2 class="section-title">{title}</h2>', unsafe_allow_html=True)
     st.markdown(
         f'<div style="width: 100%; height: 3px; background-color: {line_color}; margin-bottom: 15px;"></div>',
@@ -446,7 +446,7 @@ col1, col2 = st.columns([1, 1])
 with col1:
     st.markdown('<h2 class="section-title">Localização</h2>', unsafe_allow_html=True)
     st.markdown(
-        '<div style="width: 100%; height: 3px; background-color: #B36C32; margin-bottom: 15px;"></div>',
+        '<div style="width: 100%; height: 3px; background-color: #FF8C00; margin-bottom: 15px;"></div>',
         unsafe_allow_html=True,
     )
 
@@ -475,7 +475,7 @@ with col1:
 with col2:
     st.markdown('<h2 class="section-title">Indicadores</h2>', unsafe_allow_html=True)
     st.markdown(
-        '<div style="width: 100%; height: 3px; background-color: #B36C32; margin-bottom: 15px;"></div>',
+        '<div style="width: 100%; height: 3px; background-color: #FF8C00; margin-bottom: 15px;"></div>',
         unsafe_allow_html=True,
     )
     st.markdown("""
@@ -615,7 +615,7 @@ with col5:
         [
             "ranking_financas_publicas", "indice_financas_publicas",
             "auton_mun", "desp_corrent_mun", "gast_pess_mun", "invest_mun",
-            "liq_mun", "prev_mun"
+            "liq_mun"
         ]
     )
 
